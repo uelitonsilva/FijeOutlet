@@ -142,8 +142,8 @@ section nav li {
 .social form input,
 form textarea,
 form button {
-    display: flex;
-    width: 260px;
+    display: block;
+    width: 315px;
     margin-bottom: 3px;
     padding: 5px;
 }
