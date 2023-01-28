@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: #0ac5d4;
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    background-color: #000;
+    
+}
+
+header nav li {
+    display: inline-block;
+    padding: 8px 24px;
+    font-size: 18px;
+    align-items: center;
+}
+
+header img {
+    width: 90px;
+    height: 60px;
+    border-radius: 24px;
+}
+
+header nav li a,
+.productions nav li a {
+    text-decoration: none;
+    color: #0ac5d4;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    background-color: #0ac5d4;
+    color: #eee;
+}
+
+section nav li {
+    font-size: 18px;
+    padding: 18px;
+    font-family: 'Indie Flower', cursive;
+    list-style: none;
+}
+
+.id h2 {
+    align-items: flex-start;
+    font-size: 24px;
+    font-family: 'Unbounded', cursive;
+    padding: 18px;
+    font-size: 35px;
+}
+.id img {
+    width: 70%;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.product a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    font-family: 'Unbounded', cursive;
+    padding: 24px;
+    font-size: 35px;
+    color:#eee;
+    background-color: #0ac5d4;
+    border-style: 10px;
+}
+
+.product a:hover {
+    background-color: aquamarine;
+}
+
+.product {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #0ac5d4;
+}
+
+.product li {
+    border-style: #eee;
+    padding: 2px;
+    list-style: none;
+}
+
+.product h2 {
+    font-family: 'Unbounded', cursive;
+    background-color: black;
+    padding: 16px;
+    font-size: 30px;
+}
+
+.product img {
+    width: 400px;
+    height: 396px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.social {
+    display: flex;
+    padding: 16px;
+    font-family: 'Unbounded', cursive;
+    color: #0ac5d4;
+    align-items: center;
+    font-size: 12px;
+    }
+
+    .social h2 {
+        padding: 18px;
+    }
+
+.social img {
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social a {
+    text-decoration: none;
+    margin: 16px;
+    background-color: #000;
+    color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.social a:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    color: #eee;
+    background-color: #0ac5d4;
+    padding: 12px;
+    
+}
+footer p {
+    margin-left: 24px;
+}
+
+body {
+    background-color: #eee;
+}
