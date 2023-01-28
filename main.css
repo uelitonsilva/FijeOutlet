@@ -160,6 +160,10 @@ form button {
     cursor: pointer;
 }
 
+.social button:hover {
+    background-color: aquamarine;
+}
+
 footer {
     color: #eee;
     background-color: #0ac5d4;
